@@ -93,7 +93,7 @@ selectModo.addEventListener("change", function () {
   }
 });
 
-function iniciarJogoConfigurado(evento) {
+form.addEventListner("submit", function iniciarJogoConfigurado(evento) {
   evento.preventDefault(); // pra pagina nao recarregar
 
   nome1 = inputNome1.value.trim();
